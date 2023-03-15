@@ -1,0 +1,255 @@
+.columns-grid-container-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+}
+
+.columns-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.columns-grid-search-inputs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.column {
+  font-size: 1.7rem;
+  z-index: 1;
+  padding: 40px 10px 30px;
+  text-align: center;
+  margin-left: 0px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.columns {
+  font-size: 25px;
+  z-index: 1;
+  padding: 20px;
+  padding-top: 40px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  height: 100px;
+}
+
+.date {
+  width: 200px;
+}
+
+.card {
+  margin: 10px 20px 40px;
+}
+
+.pet-care-center-search-heading {
+  color: #CC9535;
+  font-size: 2rem;
+  text-decoration: solid;
+}
+
+.pet-care-center-tile-heading {
+  color: #000;
+  font-size: 30px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  margin-left: -12px;
+}
+
+.swiper-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-row {
+  margin-bottom: 0px;
+  margin-top: 10%;
+}
+
+.search-row-win {
+  margin-bottom: 0px;
+  margin-top: 8%;
+}
+
+.search-tile-heading {
+  margin-bottom: 10px;
+}
+
+.search-tile {
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-bottom: 10%;
+
+}
+
+.pet-care-search {
+  margin: 7% 0 0 0;
+}
+
+.ion-col-search {
+  text-align: end;
+}
+
+.ion-item-search {
+  width: 200px;
+  height: 60px;
+}
+
+.ion-list-search {
+  --ion-text-color: white;
+  --ion-item-background: #CC9535;
+}
+
+.search-row-inner {
+  width: 100%;
+}
+
+.service-date-label {
+  font-size: 16px;
+  color: #CC9535;
+}
+
+.service-date-label-win {
+  padding: 40px;
+  font-size: 16px;
+  color: white;
+  padding-left: 30%;
+}
+
+.service-date {
+  margin-top: 10px;
+  padding: 0.6rem;
+}
+
+.input-label {
+  font-size: 17px;
+  font-weight: 420;
+}
+
+.success-message {
+  color: #fff;
+  background-color: #CC9535;
+  margin: 10% 15%;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.lb-color {
+  color: #CC9535 !important;
+  font-size: 1.2rem !important;
+  font-weight: 800;
+}
+
+.count-input {
+    padding: 0.6rem;
+    margin-top: 0.5rem;
+    border: 2px solid #CC9535;
+    color: #CC9535;
+    font-weight: 800;
+}
+
+.alert-radio-label {
+  font-size: 1.2rem !important;
+  font-weight: 800;
+}
+
+.label-select-p {
+  padding-left: 3rem;
+}
+
+.label-placeholder-p {
+  padding-left: 5rem;
+  padding-top: 0.5rem;
+}
+
+.label-input-p {
+  padding-left: 6rem !important;
+}
+
+.alert-wrapper {
+  background-color: #CC9535 !important;
+}
+.alert-button-inner {
+  color: white !important;
+  font-size: 1rem !important;
+  font-weight: 800 !important;
+}
+.alert-radio-icon {
+  border-color: white !important;
+}
+.alert-radio-inner {
+  color: white;
+  background-color: #fff !important;
+}
+
+button#date-button {
+  background-color: #CC9535 !important;
+}
+
+button#time-button {
+  background-color: #CC9535 !important;
+}
+.dateTime-button {
+  background-color: #CC9535 !important;
+  --ion-color-step-300: #CC9535;
+  --ion-text-color: white !important;
+  justify-content: flex-start !important;
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+}
+
+.date-active #date-button  {
+  color: #fff !important;
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+}
+
+:host button {
+  background-color: #CC9535 !important;
+}
+
+:host button {
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+}
+
+button#date-button {
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+}
+
+.mt-2 {
+  margin-top: 2rem !important;
+}
+.mt-1 {
+  margin-top: 1.7rem !important;
+}
+
+.loading-content {
+  color:#CC9535;
+}
+
+ion-datetime-button::part(native) {
+  font-weight: 800;
+}

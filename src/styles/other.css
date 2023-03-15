@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.other {
+    margin-top: 14%;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.other-content-container {
+    margin: 5% 10%;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.other-container {
+    z-index: 1;
+    background-color: #CC9535;
+    padding: 70px 0 10px;
+    margin: 0 15%;
+    border-radius: 100px 100px 100px 100px;
+    width: 70%;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Dancing Script', cursive;
+}
+.other-heading {
+    padding: 20px 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.pet-care-center-heading {
+    padding: 10px 0;
+    margin: 10px 600px 20px 0;
+    width: 40%;
+    font-size: 30px;
+}
+
+.payment-success {
+    margin: 100px 0 0;
+    font-size: 30px;
+}
+
+.pay-button {
+    margin-top: 500px;
+    position: fixed
+}
+
+.points {
+    color: #fff;
+    font-size: 2.25rem;
+}
+
+.point-in-rupees {
+    font-size: 1.5rem;
+}
+
+.order-id {
+    font-size: 2.75rem;
+    padding-left: 10px;
+    color: black;
+    font-weight: 800;
+    padding-top: 50px;
+}

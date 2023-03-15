@@ -1,0 +1,32 @@
+.user-type {
+    display: flex;
+    flex-direction: row;
+    height: 92vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.user-type-container {
+    z-index: 1;
+    background-color: #CC9535;
+    border-radius: 5%;
+    padding: 150px 40px 10px;
+    margin: 150px 20px 50px;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff
+}
+
+.hotel {
+    padding: 140px 40px 10px;
+}
+
+.user-type-container:hover {
+    z-index: 1;
+    color: #000;
+}

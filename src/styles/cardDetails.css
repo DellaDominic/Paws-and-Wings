@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Ubuntu");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.carddetail-cardtype {
+  color: blue !important;
+}
+
+.cardetails-expiry-input {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.cardetails-payment {
+  background: #CC9435;
+  height: auto;
+  padding: 0.4rem 1.3rem;
+  border-radius: 5px;
+  position: relative;
+}
+
+.cardetails-payment h2 {
+  margin-bottom: 1.3rem;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 800 !important;
+}
+
+.cardetails-form .cardetails-label {
+  display: block;
+  color: white;
+  margin-bottom: 6px;
+  font-weight: 800 !important;
+}
+
+.cardetails-input {
+  padding: 13px 0px 13px 25px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  outline: none;
+  font-size: 16px;
+}
+
+.cardetails-card-grp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardetails-card-item {
+  width: 48%;
+}
+
+.cardetails-space {
+  margin-bottom: 20px;
+}
+
+.cardetails-icon-relative {
+  position: relative;
+}
+
+.cardetails-icon-relative .fas,
+.cardetails-icon-relative .far {
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  font-size: 20px;
+  color: #555555;
+  padding-right: 10px;
+}
+
+.cardetails-btn {
+  margin-top: 40px;
+  background: black;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cardetails-payment-logo {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  background: #f8f8f8;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  line-height: 85px;
+}
+
+.cardetails-payment-logo:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 90px;
+  height: 90px;
+  background: #2196f3;
+  border-radius: 50%;
+}
+
+.cardetails-payment-logo p {
+  position: relative;
+  color: #f8f8f8;
+  font-family: "Baloo Bhaijaan", cursive;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 420px) {
+  .cardetails-card-grp {
+    flex-direction: column;
+  }
+
+  .cardetails-card-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .cardetails-btn {
+    margin-top: 20px;
+  }
+}
+
+.cardetails-input-icons i {
+  position: absolute;
+}
+
+.cardetails-input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.cardetails-icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.cardetails-input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.cardetails-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#cardetails-headline {
+  width: 80%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #1a1b21;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  color: #aaa;
+  word-spacing: 5px;
+  text-align: left;
+}
+
+.cardetails-grid {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.cardetails-row {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  margin-right: 15px;
+  border-radius: 5px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  color: #aaa;
+  text-align: center;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.cardetails-row img {
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+.cardetails-row:hover {
+  background-color: #1a1b21;
+  cursor: pointer;
+}
+
+#cardetails-urchoice {
+  margin: 60px;
+}
+
+#cardetails-urchoice cardetails-input {
+  width: 200px;
+  line-height: 50px;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #1a1b21;
+  background-color: #1a1b21;
+  color: #aaa;
+}

@@ -1,0 +1,124 @@
+.pet-care-center-payment-heading-container {
+    margin-bottom: 30px;
+}
+
+.select-payment-method-heading-container {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.second-level-payment-type-container {
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.pay-button-container {
+    justify-content: center;
+}
+
+.pet-care-center-payment-heading {
+    font-size: 35px;
+    color: #000;
+}
+
+.second-level-payment-type {
+    --ion-item-background: #808080;
+    --ion-item-color: #fff;
+
+}
+
+.button-solid {
+    --background: #fff;
+    font-size: 1rem !important;
+    font-weight: 800 !important;
+}
+
+.sc-ion-label-md-h,
+.in-item {
+    font-weight: 800 !important;
+    font-size: 1.2rem !important;
+}
+
+
+
+.payment-options-container {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-gap: 25px;
+    width: 100%;
+}
+
+.payment-radio-box {
+    --ion-item-background: #CC9435;
+    --ion-item-color: #fff;
+
+}
+
+
+.payment-voucher-box {
+    --ion-item-background: #CC9435;
+    --ion-item-color: #fff;
+}
+
+.select-icon {
+    opacity: inherit !important;
+}
+
+h2#alert-2-hdr {
+    color: #fff !important;
+}
+
+.voucher-apply-button {
+    margin-top: 5px;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.payment-radio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.mt-2 {
+    margin-top: 2rem !important;
+}
+
+.quote-select-breed-box {
+    --ion-item-background: #CC9435;
+    --ion-item-color: #fff;
+    background: #808080;
+}
+
+.pay-button-card {
+    display: flex;
+    width: 30%;
+    margin: 1rem auto;
+    background: white !important;
+    color: #000 !important;
+    border-radius: 100px 100px 100px 100px;
+    font-weight: 800 !important;
+    font-size: 1rem !important;
+}
+
+:host(.button-solid) {
+    --background: #fff !important;
+    --color: #000 !important
+}
+
+.alert-title {
+    color: #fff !important;
+    font-weight: 800 !important;
+}
+
+.alert-radio-label {
+    font-size: 1.2rem !important;
+    font-weight: 800 !important;
+}
+
+slot[name=date-target] {
+    color: #fff !important;
+}

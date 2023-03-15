@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  --ion-color-step-850: white;
+  --ion-overlay-background-color: #808080;
+  --ion-card-background: black;
+  --ion-color-step-300: #CC9535 !important;
+  --ion-color-warning: #CC9535;
+}
+
+.ion-content-custom {
+  background-image: url('https://images.unsplash.com/photo-1615457938971-3ab61c1c0d57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.about,
+.contact {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-wings-paws {
+  background-color: #000;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  height: 70px;
+  padding-top: 28px;
+}
+
+.copywrite-text {
+  text-align: center;
+  padding-left: 24%;
+}
+
+.footer-email {
+  text-align: center;
+  padding-left: 10%;
+}
+
+.email-footer-icon {
+  padding-right: 0px;
+}
+
+.scroll-content {
+  background: url("https://img.freepik.com/free-vector/gradient-golden-luxury-background_23-2149025598.jpg?w=2000&t=st=1676305482~exp=1676306082~hmac=9210c9b035b92cba1dcef979adde71ab4960bb5fc81fd699eb77c461abf1197d") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
+}
+
+ion-content {
+  --background: none;
+  background-image: url('https://img.freepik.com/free-vector/gradient-golden-luxury-background_23-2149025598.jpg?w=2000&t=st=1676305482~exp=1676306082~hmac=9210c9b035b92cba1dcef979adde71ab4960bb5fc81fd699eb77c461abf1197d');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li.list-item:hover,
+div.column:hover {
+  color: #000 !important;
+}

@@ -1,0 +1,33 @@
+.display-quote-columns-grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.display-quote-columns-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.display-quote-column {
+  z-index: 1;
+  background-color: #808080;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #808080;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.display-quote-columns {
+  z-index: 1;
+  background-color: #808080;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}

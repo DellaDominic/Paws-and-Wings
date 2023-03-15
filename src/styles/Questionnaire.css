@@ -1,0 +1,173 @@
+.pet-care-center-quote-heading-container {
+  margin-bottom: 30px;
+}
+
+.pet-care-center-quote-heading {
+  color: #000;
+  font-size: 35px;
+}
+
+.quote-container-copy {
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.upload-vaccine-text {
+  margin-bottom: 0px;
+  color: #000;
+  padding-left: 15px;
+  font-size: 1.2rem;
+}
+
+.quote-container-input-field-container {
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 20% 25% 20% 30%;
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.quote-select-breed-box {
+  --ion-item-background: #CC9435;
+  --ion-item-color: #fff;
+  background: #808080;
+}
+
+.quote-radio-pickup-box {
+  background: #808080;
+  --ion-item-color: #fff;
+  --ion-item-background: #CC9435;
+  ;
+}
+
+.quote-multi-select-service-box {
+  background: #808080;
+  --ion-item-background: #CC9435;
+  ;
+  --ion-item-color: #fff;
+}
+
+.text-area-box {
+  --ion-item-background: #CC9435;
+  ;
+}
+
+.quote-radio-label {
+  padding-right: 20px;
+}
+
+.radio-group-quote-custom {
+  display: block;
+}
+
+.get-quote-button-container {
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.get-quote-button {
+  text-align: center;
+}
+
+.quote-summary-heading {
+  color: #fff;
+  background-color: #CC9435;
+  font-size: 20px;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.quote-summary-row {
+  color: #000;
+  font-size: 17px;
+  padding: 0 50px;
+  text-align: center;
+  background-color: #CC9435;
+}
+
+.quote-summary-white-row {
+  background-color: #fff;
+}
+
+.quote-vaccine-pay-buttons-container {
+  color: #000;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.make-payment-quote-button {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+}
+
+.upload-vaccine-button {
+  border: 3px solid #ffc409;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  margin: 10px 10px 10px 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.mt-2 {
+  margin-top: 2rem !important;
+}
+
+.text-area-box {
+  color: #fff !important;
+  max-height: 3rem !important;
+}
+
+.alert-wrapper.ion-overlay-wrapper.sc-ion-alert-md {
+  min-width: 340px !important;
+}
+
+.alert-checkbox-label.sc-ion-alert-md {
+  font-weight: 800 !important;
+  font-size: 1.2rem !important;
+}
+
+h2#alert-1-hdr {
+  color: #fff;
+}
+
+.alert-checkbox-icon.sc-ion-alert-md {
+  border-color: #fff !important;
+}
+
+ion-textarea {
+  --placeholder-color: #fff !important;
+  --placeholder-opacity: 1;
+}
+
+ion-textarea.custom-textarea {
+  margin-top: 3px !important;
+}
+
+.radio-icon {
+  border-color: #fff !important;
+}
+
+:host ion-item {
+  background-color: #CC9435 !important;
+}
+
+.native-textarea.sc-ion-textarea-md::-webkit-input-placeholder {
+  opacity: inherit;
+  font-size: 1rem !important;
+  color:		#DCDCDC !important;
+}
+
+:host(.radio-checked) .radio-icon:host(.radio-checked) .radio-icon {
+  border-color: #fff !important;
+}
+
+.textarea-wrapper {
+  font-size: 1.2rem !important;
+  font-weight: 800 !important;
+}
