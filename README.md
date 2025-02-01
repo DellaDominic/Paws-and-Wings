@@ -1,2 +1,2 @@
 # Paws and Wings - Pet parenting Web App
-![image](https://github.com/user-attachments/assets/47fc1a4d-edfc-4579-81f4-b69181a66153)
+<img width="1431" alt="image" src="https://github.com/user-attachments/assets/aa098173-95f8-424b-8544-1ba4aef6f64a" />
